@@ -215,6 +215,9 @@ h1 {
 }
 
 @media (max-width: 800px){
+    html{
+        height: 980px;
+    }
     body{
         background-image: url(../assets/bg-mobile.webp);
         position: relative;
