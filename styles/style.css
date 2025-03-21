@@ -25,9 +25,9 @@
 h1 {
     margin: auto;
     text-align: center;
-    font-size: 85px;
-    max-width: 1250px;
-    padding-top: 110px;
+    font-size: 66px;
+    max-width: 1200px;
+    padding-top: 200px;
 }
 
 .gradient-text {
@@ -212,6 +212,7 @@ h1 {
     h1{
         font-size: 28px;
         width: 320px;
+        padding-top: 110px;
     }
     .yellow{
         font-size: 28px;
