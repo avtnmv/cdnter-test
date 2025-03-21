@@ -15,7 +15,6 @@
 .container {
     background-image: url(../assets/bg-desktop.webp);
     background-size: cover; 
-    background-position: center; 
     background-repeat: no-repeat; 
     width: 100vw; 
     height: 900px; 
@@ -28,7 +27,7 @@ h1 {
     text-align: center;
     font-size: 85px;
     max-width: 1250px;
-    padding-top: 48px;
+    padding-top: 110px;
 }
 
 .gradient-text {
@@ -120,7 +119,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: black;
     gap: 15px;
     position: relative;
     animation: pulse 2s infinite ease-in-out; 
