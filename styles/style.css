@@ -27,9 +27,11 @@ h1 {
     text-align: center;
     font-size: 66px;
     max-width: 1200px;
-    padding-top: 200px;
+    padding-top: 205px;
 }
-
+.content-flex{
+    padding-top: 40px;
+}
 .gradient-text {
     background: linear-gradient(92.63deg, #FFFFFF 12.93%, #737373 144.97%);
     -webkit-background-clip: text;
@@ -90,7 +92,7 @@ h1 {
     position: relative;
     animation: pulse-outer 2s infinite ease-in-out; 
     left: 15%;
-    top: -5%;
+    top: -75px;
 }
 
 
@@ -143,6 +145,14 @@ h1 {
     align-items: center;
     gap: 25px;
     margin-top: 32px;
+}
+.logo{
+    width: 160px;
+    height: 25px;
+    display: none;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
 }
 @keyframes pulse-outer {
     0% {
@@ -208,12 +218,15 @@ h1 {
     body{
         background-image: url(../assets/bg-mobile.webp);
         position: relative;
+            background-image: url(../assets/bg-mobile.webp);
+            position: relative;
+            background-size: 100% 100%;
 
     }
     h1{
         font-size: 28px;
         width: 320px;
-        padding-top: 110px;
+        padding-top: 80px;
     }
     .yellow{
         font-size: 28px;
@@ -255,5 +268,13 @@ h1 {
     .play{
         left: 35%;
         top: -360px;
+    }
+    .logo{
+        width: 160px;
+        height: 25px;
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 25px;
     }
 }
