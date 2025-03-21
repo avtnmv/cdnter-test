@@ -216,7 +216,7 @@ h1 {
 
 @media (max-width: 800px){
     html{
-        height: 1070px;    
+        overflow-x: hidden;
     }
     body{
         background-image: url(../assets/bg-mobile.webp);
@@ -224,12 +224,14 @@ h1 {
             background-image: url(../assets/bg-mobile.webp);
             position: relative;
             background-size: 100% 100%;
+            overflow: hidden;
 
     }
     h1{
         font-size: 28px;
         width: 320px;
-        padding-top: 80px;
+        padding-top: 0px;
+        margin-top: 80px;
     }
     .yellow{
         font-size: 28px;
@@ -267,10 +269,12 @@ h1 {
     .content-flex{
         width: 340px;
         margin: auto;
+        padding-top: 0px;
+        margin-top: 30px;
     }
     .play{
         left: 35%;
-        top: -360px;
+        top: -380px;
     }
     .logo{
         width: 160px;
