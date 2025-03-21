@@ -12,12 +12,12 @@
     font-family: 'RF Dewi';
     text-decoration: none;
 }
-.container {
+body {
     background-image: url(../assets/bg-desktop.webp);
     background-size: cover; 
     background-repeat: no-repeat; 
     width: 100vw; 
-    height: 900px; 
+    height: 1000px; 
     margin: auto; 
     padding: 0; 
     position: relative;
@@ -205,8 +205,9 @@ h1 {
 }
 
 @media (max-width: 800px){
-    .container{
+    body{
         background-image: url(../assets/bg-mobile.webp);
+        position: relative;
 
     }
     h1{
@@ -253,6 +254,6 @@ h1 {
     }
     .play{
         left: 35%;
-        top: -50%;
+        top: -360px;
     }
 }
